@@ -1,0 +1,18 @@
+package com.application.EmployeeManagementSystem.domain;
+
+import java.time.Instant;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Employee {
+	Integer id;
+	String firstName;
+	String lastName;
+	Integer age;
+	String email;
+	Long salary;
+	String designation;
+	Instant joiningDate;
+	
+}

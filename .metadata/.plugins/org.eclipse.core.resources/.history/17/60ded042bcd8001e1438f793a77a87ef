@@ -1,0 +1,22 @@
+package com.application.EmployeeManagementSystem.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.application.EmployeeManagementSystem.domain.Employee;
+import com.application.EmployeeManagementSystem.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+	
+	EmployeeService employeeService;
+	
+	@PostMapping("/")
+	public void createEmployee(@RequestBody Employee employee) {
+		
+	}
+	
+	
+
+}

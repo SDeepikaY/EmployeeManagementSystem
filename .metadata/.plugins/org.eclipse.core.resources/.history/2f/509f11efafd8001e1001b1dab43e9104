@@ -1,0 +1,5 @@
+package com.application.EmployeeManagementSystem.domain;
+
+public class Employee {
+
+}

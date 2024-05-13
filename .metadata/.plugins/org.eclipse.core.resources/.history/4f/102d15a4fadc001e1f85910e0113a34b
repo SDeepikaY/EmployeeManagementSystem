@@ -1,0 +1,5 @@
+package com.application.EmployeeManagementSystem.service.impl;
+
+public interface DepartmentFunctionsImpl {
+
+}

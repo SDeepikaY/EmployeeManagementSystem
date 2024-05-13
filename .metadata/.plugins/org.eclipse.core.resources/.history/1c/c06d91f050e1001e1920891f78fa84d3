@@ -1,0 +1,5 @@
+package com.application.EmployeeManagementSystem.model.request;
+
+public class EmployeeRequest {
+
+}

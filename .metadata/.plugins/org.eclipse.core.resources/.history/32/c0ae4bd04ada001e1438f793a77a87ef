@@ -1,0 +1,13 @@
+package com.application.EmployeeManagementSystem.service;
+
+import com.application.EmployeeManagementSystem.domain.Employee;
+
+public interface EmployeeService {
+
+	void createEmployee(Employee employee);
+
+	Employee getEmployeeById(Integer id);
+	
+	
+
+}

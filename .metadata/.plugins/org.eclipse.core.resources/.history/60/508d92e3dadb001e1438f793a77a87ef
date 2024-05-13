@@ -1,0 +1,5 @@
+package com.application.EmployeeManagementSystem.exceptions;
+
+public class EmployeeNotFoundException {
+
+}
